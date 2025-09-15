@@ -27,11 +27,11 @@ export class RequestLogEntity {
 
   @Column()
   @ApiProperty({ description: 'true -> black page, false -> white page' })
-  passed: boolean; // true -> black page, false -> white page
+  passed: boolean;
 
   @Column()
   @ApiProperty({ description: "reason why failed or 'ok'" })
-  reason: string; // reason why failed or 'ok'
+  reason: string;
 
   @Column()
   @ApiProperty({ type: String })
