@@ -19,6 +19,6 @@
     "types": ["node"],
     "baseUrl": "."
   },
-  "include": ["src"],
+  "include": ["src", "seeds"],
   "exclude": ["node_modules", "dist"]
 }

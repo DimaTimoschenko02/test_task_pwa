@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
-import { typeOrmMongoConfig } from '../config/typeorm.config';
-import { AppConfigEntity } from '../app-config/entities/app-config.entity';
+import { typeOrmMongoConfig } from '../src/config/typeorm.config';
+import { AppConfigEntity } from '../src/app-config/entities/app-config.entity';
 
 async function run() {
   const opts = await typeOrmMongoConfig();

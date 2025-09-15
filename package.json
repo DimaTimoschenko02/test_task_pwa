@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Cloaking MVC NestJS + TypeORM MongoDB",
   "license": "MIT",
-  "main": "dist/main.js",
+  "main": "dist/src/main.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/main.js",
+    "start": "node dist/src/main.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "lint": "eslint . --ext .ts,.js",
     "format": "prettier --write .",
